@@ -4,17 +4,36 @@ function App() {
 
   const orders = [{
     "name": "Daves Hot Chicken",
-    "review": "8.5"
+    "review": "8.5",
+    "discription": "It was"
   },
   {
-    "name": "adfad",
-    "review": "8.5"
+    "name": "Spicy Girl",
+    "review": "8.5",
+    "discription": ""
   },
   {
-    "name": "Dsdfdasdf",
-    "review": " "
+    "name": "Cooking Girl",
+    "review": "9.5",
+    "discription": ""
+  },
+  {
+    "name": "WingStop",
+    "review": "9.5",
+    "discription": ""
+  },
+  {
+    "name": "WingStop",
+    "review": "9.5",
+    "discription": ""
+  },
+  {
+    "name": "WingStop",
+    "review": "9.5",
+    "discription": ""
   }]
   return (
+
     <div className= "header">
   <h1> Brook and Ethan's UberEats Review Guide </h1>
   <h3> Since we've gotten to Rice University </h3>
@@ -23,7 +42,7 @@ function App() {
 
 <div className = 'body'>
 {orders.map(order => 
-<Order name = {order.name} review= {order.review} />
+<Order name = {order.name} review = {order.review} discription = {order.discription}/>
   )}
 
 </div>
@@ -31,6 +50,10 @@ function App() {
 
  
     </div>
+
+
+
+
   );
 }
 

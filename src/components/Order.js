@@ -9,6 +9,8 @@ const Order = (props) => {
             </div>
             <h2> {props.name}</h2>
             <h3>Review: {props.review} </h3>
+            <h3>Discription: {props.discription}</h3>
+          
         </div>
     )
 }
